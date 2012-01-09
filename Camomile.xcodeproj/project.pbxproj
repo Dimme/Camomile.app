@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746918451412EBFF00B26B70 /* camomile.icns in Resources */ = {isa = PBXBuildFile; fileRef = 746918441412EBFF00B26B70 /* camomile.icns */; };
+		74DD86371412DA67005B6C02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DD86361412DA67005B6C02 /* Cocoa.framework */; };
+		74DD86411412DA67005B6C02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74DD863F1412DA67005B6C02 /* InfoPlist.strings */; };
+		74DD86431412DA67005B6C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD86421412DA67005B6C02 /* main.m */; };
+		74DD86471412DA67005B6C02 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 74DD86451412DA67005B6C02 /* Credits.rtf */; };
+		74DD864A1412DA67005B6C02 /* CamomileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD86491412DA67005B6C02 /* CamomileAppDelegate.m */; };
+		74DD864D1412DA68005B6C02 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74DD864B1412DA68005B6C02 /* MainMenu.xib */; };
+		74DD86541412DCAB005B6C02 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DD86531412DCAB005B6C02 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		746918441412EBFF00B26B70 /* camomile.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = camomile.icns; path = ../camomile.icns; sourceTree = "<group>"; };
+		74DD86321412DA67005B6C02 /* Camomile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camomile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DD86361412DA67005B6C02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		74DD86391412DA67005B6C02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		74DD863A1412DA67005B6C02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		74DD863B1412DA67005B6C02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74DD863E1412DA67005B6C02 /* Camomile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Camomile-Info.plist"; sourceTree = "<group>"; };
+		74DD86401412DA67005B6C02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74DD86421412DA67005B6C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74DD86441412DA67005B6C02 /* Camomile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Camomile-Prefix.pch"; sourceTree = "<group>"; };
+		74DD86461412DA67005B6C02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		74DD86481412DA67005B6C02 /* CamomileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CamomileAppDelegate.h; sourceTree = "<group>"; };
+		74DD86491412DA67005B6C02 /* CamomileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamomileAppDelegate.m; sourceTree = "<group>"; };
+		74DD864C1412DA68005B6C02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		74DD86531412DCAB005B6C02 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DD862F1412DA67005B6C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DD86541412DCAB005B6C02 /* IOKit.framework in Frameworks */,
+				74DD86371412DA67005B6C02 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DD86271412DA67005B6C02 = {
+			isa = PBXGroup;
+			children = (
+				74DD863C1412DA67005B6C02 /* Camomile */,
+				74DD86351412DA67005B6C02 /* Frameworks */,
+				74DD86331412DA67005B6C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DD86331412DA67005B6C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DD86321412DA67005B6C02 /* Camomile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DD86351412DA67005B6C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DD86531412DCAB005B6C02 /* IOKit.framework */,
+				74DD86361412DA67005B6C02 /* Cocoa.framework */,
+				74DD86381412DA67005B6C02 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DD86381412DA67005B6C02 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DD86391412DA67005B6C02 /* AppKit.framework */,
+				74DD863A1412DA67005B6C02 /* CoreData.framework */,
+				74DD863B1412DA67005B6C02 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		74DD863C1412DA67005B6C02 /* Camomile */ = {
+			isa = PBXGroup;
+			children = (
+				74DD86481412DA67005B6C02 /* CamomileAppDelegate.h */,
+				74DD86491412DA67005B6C02 /* CamomileAppDelegate.m */,
+				74DD864B1412DA68005B6C02 /* MainMenu.xib */,
+				74DD863D1412DA67005B6C02 /* Supporting Files */,
+			);
+			path = Camomile;
+			sourceTree = "<group>";
+		};
+		74DD863D1412DA67005B6C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746918441412EBFF00B26B70 /* camomile.icns */,
+				74DD863E1412DA67005B6C02 /* Camomile-Info.plist */,
+				74DD863F1412DA67005B6C02 /* InfoPlist.strings */,
+				74DD86421412DA67005B6C02 /* main.m */,
+				74DD86441412DA67005B6C02 /* Camomile-Prefix.pch */,
+				74DD86451412DA67005B6C02 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DD86311412DA67005B6C02 /* Camomile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DD86501412DA68005B6C02 /* Build configuration list for PBXNativeTarget "Camomile" */;
+			buildPhases = (
+				74DD862E1412DA67005B6C02 /* Sources */,
+				74DD862F1412DA67005B6C02 /* Frameworks */,
+				74DD86301412DA67005B6C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camomile;
+			productName = Camomile;
+			productReference = 74DD86321412DA67005B6C02 /* Camomile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DD86291412DA67005B6C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 74DD862C1412DA67005B6C02 /* Build configuration list for PBXProject "Camomile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74DD86271412DA67005B6C02;
+			productRefGroup = 74DD86331412DA67005B6C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DD86311412DA67005B6C02 /* Camomile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DD86301412DA67005B6C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DD86411412DA67005B6C02 /* InfoPlist.strings in Resources */,
+				74DD86471412DA67005B6C02 /* Credits.rtf in Resources */,
+				74DD864D1412DA68005B6C02 /* MainMenu.xib in Resources */,
+				746918451412EBFF00B26B70 /* camomile.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DD862E1412DA67005B6C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DD86431412DA67005B6C02 /* main.m in Sources */,
+				74DD864A1412DA67005B6C02 /* CamomileAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74DD863F1412DA67005B6C02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DD86401412DA67005B6C02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74DD86451412DA67005B6C02 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DD86461412DA67005B6C02 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		74DD864B1412DA68005B6C02 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DD864C1412DA68005B6C02 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DD864E1412DA68005B6C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		74DD864F1412DA68005B6C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		74DD86511412DA68005B6C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Camomile/Camomile-Prefix.pch";
+				INFOPLIST_FILE = "Camomile/Camomile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74DD86521412DA68005B6C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Camomile/Camomile-Prefix.pch";
+				INFOPLIST_FILE = "Camomile/Camomile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DD862C1412DA67005B6C02 /* Build configuration list for PBXProject "Camomile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DD864E1412DA68005B6C02 /* Debug */,
+				74DD864F1412DA68005B6C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DD86501412DA68005B6C02 /* Build configuration list for PBXNativeTarget "Camomile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DD86511412DA68005B6C02 /* Debug */,
+				74DD86521412DA68005B6C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DD86291412DA67005B6C02 /* Project object */;
+}
